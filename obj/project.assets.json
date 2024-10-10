@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juano\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Supermarket-mvp.csproj",
+      "projectUniqueName": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\Supermarket-mvp.csproj",
       "projectName": "Supermarket-mvp",
-      "projectPath": "C:\\Users\\juano\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\Supermarket-mvp.csproj",
+      "projectPath": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\Supermarket-mvp.csproj",
       "packagesPath": "C:\\Users\\juano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juano\\source\\repos\\Supermarket-mvp\\Supermarket-mvp\\obj\\",
+      "outputPath": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juano\\AppData\\Roaming\\NuGet\\NuGet.Config",
