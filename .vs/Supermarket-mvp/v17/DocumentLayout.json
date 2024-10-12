@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\juano\\desktop\\supermarket-mvp\\supermarket-mvp\\view\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\view\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|C:\\Users\\juano\\Desktop\\Supermarket-mvp\\supermarket-mvp\\view\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\view\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\juano\\desktop\\supermarket-mvp\\supermarket-mvp\\view\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\view\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\juano\\desktop\\supermarket-mvp\\supermarket-mvp\\view\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\view\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\juano\\desktop\\supermarket-mvp\\supermarket-mvp\\presenters\\mainpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\juano\\desktop\\supermarket-mvp\\supermarket-mvp\\view\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\view\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\juano\\desktop\\supermarket-mvp\\supermarket-mvp\\view\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|solutionrelative:supermarket-mvp\\view\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78EC0434-589D-414E-96AE-FF5F0BF708CC}|Supermarket-mvp\\Supermarket-mvp.csproj|c:\\users\\juano\\desktop\\supermarket-mvp\\supermarket-mvp\\presenters\\paymodepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -88,24 +88,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PayModeView.cs",
               "DocumentMoniker": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\PayModeView.cs",
               "RelativeDocumentMoniker": "Supermarket-mvp\\View\\PayModeView.cs",
               "ToolTip": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\PayModeView.cs*",
               "RelativeToolTip": "Supermarket-mvp\\View\\PayModeView.cs*",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIkAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAwwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T04:40:53.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IPayModeView.cs",
               "DocumentMoniker": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\IPayModeView.cs",
               "RelativeDocumentMoniker": "Supermarket-mvp\\View\\IPayModeView.cs",
@@ -118,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PayModeView.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\PayModeView.cs",
               "RelativeDocumentMoniker": "Supermarket-mvp\\View\\PayModeView.cs",
@@ -129,21 +133,29 @@
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainPresenter.cs",
               "DocumentMoniker": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\Presenters\\MainPresenter.cs",
               "RelativeDocumentMoniker": "Supermarket-mvp\\Presenters\\MainPresenter.cs",
               "ToolTip": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\Presenters\\MainPresenter.cs",
               "RelativeToolTip": "Supermarket-mvp\\Presenters\\MainPresenter.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwBoAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvxoAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T04:27:22.222Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainView.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\MainView.cs",
+              "RelativeDocumentMoniker": "Supermarket-mvp\\View\\MainView.cs",
+              "ToolTip": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\MainView.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Supermarket-mvp\\View\\MainView.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T04:20:02.427Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -157,18 +169,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T03:28:36.097Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainView.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\MainView.cs",
-              "RelativeDocumentMoniker": "Supermarket-mvp\\View\\MainView.cs",
-              "ToolTip": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\MainView.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Supermarket-mvp\\View\\MainView.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T04:20:02.427Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -309,8 +309,8 @@
               "Title": "PayModeView.Designer.cs",
               "DocumentMoniker": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\PayModeView.Designer.cs",
               "RelativeDocumentMoniker": "Supermarket-mvp\\View\\PayModeView.Designer.cs",
-              "ToolTip": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\PayModeView.Designer.cs",
-              "RelativeToolTip": "Supermarket-mvp\\View\\PayModeView.Designer.cs",
+              "ToolTip": "C:\\Users\\juano\\Desktop\\Supermarket-mvp\\Supermarket-mvp\\View\\PayModeView.Designer.cs*",
+              "RelativeToolTip": "Supermarket-mvp\\View\\PayModeView.Designer.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T23:30:51.218Z",
