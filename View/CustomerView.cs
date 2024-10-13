@@ -10,62 +10,83 @@ using System.Windows.Forms;
 
 namespace Supermarket_mvp.View
 {
-    public partial class PayModeView : Form, IPayModeView
+    public partial class CustomerView : Form, ICustomerView
     {
         private bool isEdit;
         private bool isSuccessful;
         private string message;
+        public CustomerView()
+        {
+            InitializeComponent();
+            AssociateAndRaiseViewEvents();
 
-        public string PayModeId 
-        {
-            get { return TxtPayModeId.Text; }
-            set { TxtPayModeId.Text = value; }
+            tabControl1.TabPages.Remove(tabPageCustomerDetail);
         }
-        public string PayModeName 
+
+        public string customer_Id
         {
-            get { return TxtPayModeName.Text; }
-            set { TxtPayModeName.Text = value; }
+            get { return TxtCustomerId.Text; }
+            set { TxtCustomerId.Text = value; }
         }
-        public string PayModeObservation 
+        public string customer_Document_Number
         {
-            get { return TxtPayModeObservation.Text; }
-            set { TxtPayModeObservation.Text = value; }
+            get { return TxtCustomerDocumentNumber.Text; }
+            set { TxtCustomerDocumentNumber.Text = value; }
+        }
+        public string customer_First_Name
+        {
+            get { return TxtCustomerFirstName.Text; }
+            set { TxtCustomerFirstName.Text = value; }
+        }
+        public string customer_Last_Name
+        {
+            get { return TxtCustomerLastName.Text; }
+            set { TxtCustomerLastName.Text = value; }
+        }
+        public string customer_Address
+        {
+            get { return TxtCustomerAddress.Text; }
+            set { TxtCustomerAddress.Text = value; }
+        }
+        public string customer_Birthday
+        {
+            get { return TxtCustomerBirthday.Text; }
+            set { TxtCustomerBirthday.Text = value; }
+        }
+        public string customer_Phone_Number
+        {
+            get { return TxtCustomerPhoneNumber.Text; }
+            set { TxtCustomerPhoneNumber.Text = value; }
+        }
+        public string customer_Email
+        {
+            get { return TxtCustomerEmail.Text; }
+            set { TxtCustomerEmail.Text = value; }
         }
         public string SearchValue
         {
             get { return TxtSearch.Text; }
             set { TxtSearch.Text = value; }
         }
-        public bool IsEdit 
+        public bool IsEdit
         {
             get { return isEdit; }
             set { isEdit = value; }
         }
-        public bool IsSuccessful 
+        public bool IsSuccessful
         {
             get { return isSuccessful; }
             set { isSuccessful = value; }
         }
-        public string Message 
+        public string Message
         {
             get { return message; }
             set { message = value; }
         }
-
-        public PayModeView()
-        {
-            InitializeComponent();
-            AssociateAndRaiseViewEvents();
-
-            tabControl1.TabPages.Remove(tabPagePayModeDetail);
-
-            BtnClose.Click += delegate { this.Close(); };
-
-        }
-
         private void AssociateAndRaiseViewEvents()
         {
             BtnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
+
 
             TxtSearch.KeyDown += (s, e) =>
             {
@@ -75,27 +96,26 @@ namespace Supermarket_mvp.View
                 }
             };
 
-            //Agregar, llame el evento AddNewEvent cuando se haga clic en el botón BtnNew
-            BtnNew.Click += delegate { 
+            BtnNew.Click += delegate {
                 AddNewEvent?.Invoke(this, EventArgs.Empty);
 
-                tabControl1.TabPages.Remove(tabPagePayModeList);
-                tabControl1.TabPages.Add(tabPagePayModeDetail);
-                tabPagePayModeDetail.Text = "Add New Pay Mode";  // Cambia el título de la pestaña
+                tabControl1.TabPages.Remove(tabPageCustomerList);
+                tabControl1.TabPages.Add(tabPageCustomerDetail);
+                tabPageCustomerDetail.Text = "Add New Customer";  // Cambia el título de la pestaña
 
             };
 
             BtnEdit.Click += delegate {
                 EditEvent?.Invoke(this, EventArgs.Empty);
 
-                tabControl1.TabPages.Remove(tabPagePayModeList);
-                tabControl1.TabPages.Add(tabPagePayModeDetail);
-                tabPagePayModeDetail.Text = "Edit Pay Mode";
+                tabControl1.TabPages.Remove(tabPageCustomerList);
+                tabControl1.TabPages.Add(tabPageCustomerDetail);
+                tabPageCustomerDetail.Text = "Edit Customer";
             };
 
             BtnDelete.Click += delegate {
                 var result = MessageBox.Show(
-                     "Are you sure you want to delete the selected Pay Mode",
+                     "Are you sure you want to delete the selected Customer",
                      "Warning",
                     MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
@@ -106,24 +126,23 @@ namespace Supermarket_mvp.View
                 }
             };
 
-            BtnSave.Click += delegate { 
+            BtnSave.Click += delegate {
                 SaveEvent?.Invoke(this, EventArgs.Empty);
 
                 if (isSuccessful) // Si grabar fue exitoso
                 {
-                    tabControl1.TabPages.Remove(tabPagePayModeDetail);
-                    tabControl1.TabPages.Add(tabPagePayModeList);
+                    tabControl1.TabPages.Remove(tabPageCustomerDetail);
+                    tabControl1.TabPages.Add(tabPageCustomerList);
                 }
                 MessageBox.Show(Message);
             };
 
-            BtnCancel.Click += delegate { 
+            BtnCancel.Click += delegate {
                 CancelEvent?.Invoke(this, EventArgs.Empty);
 
-                tabControl1.TabPages.Remove(tabPagePayModeDetail);
-                tabControl1.TabPages.Add(tabPagePayModeList);
+                tabControl1.TabPages.Remove(tabPageCustomerDetail);
+                tabControl1.TabPages.Add(tabPageCustomerList);
             };
-
 
         }
 
@@ -134,50 +153,18 @@ namespace Supermarket_mvp.View
         public event EventHandler SaveEvent;
         public event EventHandler CancelEvent;
 
-        private void label1_Click(object sender, EventArgs e)
+        public void SetcustomerListBildingSource(BindingSource customerList)
         {
-
+            DgCustomer.DataSource = customerList;
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
+        private static CustomerView instance;
 
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPagePayModeDetail_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        
-
-        private static PayModeView instance;
-
-        public static PayModeView GetInstance(Form parentContainer)
+        public static CustomerView GetInstance(Form parentContainer)
         {
             if (instance == null || instance.IsDisposed)
             {
-                instance = new PayModeView();
+                instance = new CustomerView();
                 instance.MdiParent = parentContainer;
 
                 instance.FormBorderStyle = FormBorderStyle.None;
@@ -189,14 +176,6 @@ namespace Supermarket_mvp.View
             }
             instance.BringToFront();
             return instance;
-        }
-
-
-
-
-        public void SetPayModeListBindingSource(BindingSource payModeList)
-        {
-            DgPayMode.DataSource = payModeList;
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Supermarket_mvp.Models
 {
-    internal interface PayModeRepository
+    internal interface IPayModeRepository
     {
         void Add(PayModeModel payModeModel);
         void Edit(PayModeModel payModeModel);
