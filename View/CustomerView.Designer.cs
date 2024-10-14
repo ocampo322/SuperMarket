@@ -166,6 +166,7 @@
             // 
             DgCustomer.AllowUserToAddRows = false;
             DgCustomer.AllowUserToDeleteRows = false;
+            DgCustomer.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             DgCustomer.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DgCustomer.Location = new Point(19, 110);
             DgCustomer.Name = "DgCustomer";

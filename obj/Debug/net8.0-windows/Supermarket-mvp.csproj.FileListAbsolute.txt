@@ -43,3 +43,4 @@ C:\Users\juano\Desktop\Supermarket-mvp\Supermarket-mvp\bin\Debug\net8.0-windows\
 C:\Users\juano\Desktop\Supermarket-mvp\Supermarket-mvp\obj\Debug\net8.0-windows\Supermar.FBD2E1F5.Up2Date
 C:\Users\juano\Desktop\Supermarket-mvp\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket_mvp.View.MainView.resources
 C:\Users\juano\Desktop\Supermarket-mvp\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket_mvp.View.CustomerView.resources
+C:\Users\juano\Desktop\Supermarket-mvp\Supermarket-mvp\obj\Debug\net8.0-windows\Supermarket_mvp.View.ProductView.resources
